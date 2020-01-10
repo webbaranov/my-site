@@ -116,6 +116,19 @@ body {
   background-repeat: no-repeat;
 }
 
+.project-image25{
+margin: 0;
+padding-bottom: 5em;
+}
+
+.rom{
+font-size: 40px;  
+}
+
+.toto{
+  font-size: 20px;
+}
+
 .hero-image::after {
   position: absolute;
   content: "";
@@ -166,7 +179,7 @@ body {
 
 .subheading {
   margin: 0 0 100px;
-  text-align: center;
+  text-align: left;
   font-size: 72px;
   line-height: 88px;
   font-weight: 500;
@@ -275,16 +288,17 @@ body {
 }
 
 .project-image {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   margin: 0;
 }
 
 .project-image img {
-  width: 448px;
-  height: 256px;
-  object-fit: cover;
+  display:left;
+  width: 800px;
+  height: 500px;
+  object-fit: cover ;
 }
 
 .projects p {
